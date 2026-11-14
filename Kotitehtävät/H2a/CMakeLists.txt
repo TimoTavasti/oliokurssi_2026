@@ -5,7 +5,10 @@ project(H2a LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(H2a main.cpp)
+add_executable(H2a main.cpp
+    car.h car.cpp
+    rectangle.h rectangle.cpp
+    student.h student.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS H2a

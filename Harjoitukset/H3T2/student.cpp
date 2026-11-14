@@ -11,5 +11,5 @@ Student::~Student()
 
 void Student::sayStatus()
 {
-    cout<<"Olen Studentnimi= "<<this->getName()<<" studentId= "<<studentId<<endl;
+    cout<<"Olen Studentnimi="<<this->getName()<<" studentId="<<studentId<<endl;
 }
